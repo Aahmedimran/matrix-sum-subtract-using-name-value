@@ -1,4 +1,4 @@
-function processMatrix(e){ 
+const processMatrix = (e) =>{
     let allInputsOfM1 = document.getElementsByName("m1")
     let allInputsOfM2 = document.getElementsByName("m2")
     let result = document.getElementsByName("mr")
